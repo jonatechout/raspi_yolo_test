@@ -53,6 +53,7 @@ cp -r ../darknet-nnpack/cfg/ ../darknet-nnpack/data/ .
 ```
 ./raspiyolotest cfg/voc.data cfg/yolov2-tiny-voc.cfg yolov2-tiny-voc.weights 
 ```
+![yolo](https://user-images.githubusercontent.com/36672072/48969247-86349900-f03f-11e8-8ff8-394b51d5abf2.png)
 
 ## End
 Ctrl + C on the terminal.
