@@ -113,7 +113,7 @@ int main(int argc, char* argv[])
     Mat disp(dnetImg.h, dnetImg.w, CV_8UC3);
     convertDnImageToCvImage(dnetImg, &disp);
     imshow("prediction", disp);
-    if (waitKey(1) >= 0) break;
+    waitKey(1);
 
     free_image(sized);
   }
